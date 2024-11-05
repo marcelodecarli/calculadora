@@ -24,10 +24,21 @@ Para mim foi um desafio criar essa calculadora desde o início, pois algumas coi
 
 # A calculadora
 
-![](../img/calculadora.png)
+![](./img/calculadora.png)
 
  - **Minha ideia era deixar ela semelhante a que possuimos nos celulares, em específico do Iphone.**
 ---
+
+# Como utilizá-la?
+
+- Primeiro faça um clone do repositório no seu PC:
+
+```
+git clone https://github.com/marcelodecarli/calculadora.git
+```
+### Abrindo a calculadora no navegador
+Após clonar o repositório, abra a pasta clonada e clique duas vezes no arquivo `index.html` para abrir a calculadora no seu navegador. Agora, você pode usá-la clicando nos botões com o mouse. <mark>Não utilizar o teclado numérico</mark>
+
 
 ## Criação
  Para construção dessa calculadora foi utilizado Display Grid. Ao qual criei na `main` cada uma das linhas para deixar no padrão desejado por mim. No meu entendimento ficou mais claro e mais simples separar dessa maneira. Sendo posteriormente subdivido cada uma das linhas como o Display Grid também. Cada um com sua particularidade. Segue como ficou o código e suas partes:
@@ -211,7 +222,7 @@ No `input` tenho o display da calculadora, sendo ele quem recebe os valores digi
 
 # Funções no arquivo `index.js`
 
-Nesse arquivo é que toda "magia" acontece. As funções da calculadora estão todas nesse arquivo. Verifique sobre o código acessando o [Arquivo Javascript](https://js/index.js)
+Nesse arquivo é que toda "magia" acontece. As funções da calculadora estão todas nesse arquivo. Verifique sobre o código acessando o [Arquivo Javascript](https://github.com/marcelodecarli/calculadora/blob/main/js/index.js)
 
 # Resumo dos métodos criados para esse projeto:
 
